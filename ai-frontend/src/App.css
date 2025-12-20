@@ -1,0 +1,59 @@
+.App {
+  width: 100%;
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 0 10px;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Chat container */
+.chat-container {
+  margin-top: 20px;
+}
+
+/* Input & button */
+input {
+  padding: 10px;
+  width: 300px;
+  margin-right: 10px;
+}
+
+button {
+  padding: 10px 20px;
+}
+
+/* NORMAL TEXT */
+p {
+  margin-top: 10px;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+/* ✅ HEADINGS (Markdown h2 / h3) */
+.ai-message h1,
+.ai-message h2,
+.ai-message h3 {
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-weight: bold;
+  color: #2563eb;       /* blue */
+}
+
+/* ✅ BOLD TEXT */
+.ai-message strong {
+  color: #dc2626;       /* red */
+  font-weight: bold;
+}
+
+/* ✅ BULLET POINTS */
+.ai-message ul {
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.ai-message li {
+  margin-bottom: 8px;
+  font-size: 16px;
+}
